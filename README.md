@@ -1,7 +1,7 @@
 # Kali-Linux
 # ~/.zshrc file for zsh interactive shells.
 # see /usr/share/doc/zsh/examples/zshrc for examples
-
+***
 # setup 
 ## change directory just by typing its name
 setopt autocd
@@ -19,7 +19,7 @@ setopt notify
 setopt numericglobsort
 ## enable command substitution in prompt
 setopt promptsubst         
-
+***
 WORDCHARS=${WORDCHARS//\/} # Don't consider certain characters part of the word
 
 # hide EOL sign ('%')
